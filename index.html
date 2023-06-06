@@ -1,0 +1,136 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+
+<TITLE> TAQUERIA EL GOLO </TITLE>
+
+<META name="description" content="puesto de tacos de guisado en acapulco">
+<META name=”keywords content”="puestos de tacos en acapulco">
+</HEAD>
+
+  
+
+<BODY bgcolor="salmon"><a href="https://www.contadorvisitasgratis.com" title="contador de visitas html"><img src="https://counter10.optistats.ovh/private/contadorvisitasgratis.php?c=9qq4z95hml8ehz6pcemcskckrbdzsgrr" border="0" title="contador de visitas html" alt="contador de visitas html"></a>
+
+
+
+<font size="10"><span style="color:red">  <center><marquee><h1>TAQUERIA EL GOLO </h1></marquee></center></span></font>
+
+<p> VENDEMOS RICOS TACOS DE GUISADOS CASEROS ACOMPAÑADOS CON TORTILLAS A MANO<P/>
+<img src="logo.jpg"/>
+<p>SERVICIO A DOMICILIO O PIDALOS PARA LLEVAR. </p>
+<p>7441589552 o 7444408847</p>
+
+<p><a href= "https://www.google.com/maps/place/Tacos+El+Golo/@16.8620976,-99.8707248,3a,75y,180.15h,85.98t/data=!3m6!1e1!3m4!1sRm6qD7heUbq1xmB2Gw5LKA!2e0!7i16384!8i8192!4m7!3m6! 
+1s0x85ca5827838f248b:0x700053ba5597320d!8m2!3d16.8620591!4d-99.8707287!10e5!16s%2Fg%2F11g6rx7k39#"> UBICACION</a> ACAPULCO, GUERRERO.</p>
+
+<p>PUEDEN VER LOS PLATILLOS EN NUESTRO <a href= "https://www.facebook.com/pages/category/food-stand/TACOS-GOLO-1185525474813247/?locale=es_LA">FACEBOOK</a></p>
+
+
+<center><img src="puesto.jpg" widht="600" height="350"/><img src="puesto2.jpg" widht="600" height="350"/></center>
+
+<center><h2>MENU DEL RESTAURANTE</h2></center>
+<div class="column-2 columns">
+<div class="menu-restaurante" 
+style="background:img src=menuf.jpg">
+
+<h3>GUISADOS</h3>
+<hr>
+<p>MOLE</p>
+<p>ARROZ CON HUEVO</p>
+<p>CHORRIZO</p>
+<p>REQUESÓN</P>
+<p>TINGA DE POLLO</p>
+<p>FRIJOL CON CHORIZO Y QUESO</p>
+<P>PAPA CON POLLO</p>
+<p>PAPA CON CHORIZO</p>
+<p>RAJAS CON CREMA</p>
+<p>RAJAS CON PAPA Y CARNE</p>
+<p>GUACAMOLE CON CARNE ENCHILADA</p>
+<p>BARBACOA DE RES</p>
+<p>COCHINITA PIBIL</p>
+<p>SALPICON</p>
+<p>CHICHARRON EN SALSA VERDE</p>
+
+<p class="precio-menu">
+PRECIO POR TACO:
+<span>$20</span>
+<p>
+<audio controls autoplay>
+<source src="audio.mp3" type="audio/mpeg">
+</audio>
+</p>
+
+<h4>BEBIDAS</h4>
+<hr>
+<p>REFRESCO COCA COLA               $15</p>
+<p>REFREESCO SIDRAL                 $16</p>
+<p>REFESCO DE COCA COLA ZERO        $20</p>
+<p>AGUA NATURAL LITRO               $12</p>
+<p> AGUA JAMAICA LT.                $20</p>
+<p>AGUA DE JAMAICA CHICA            $15</p>
+<p>AGUA DE HORCHATA LT.             $20</p>
+<p>AGUA DE HORCHARTA CHICA          $15</p>
+<p>VASO CON HIELO                   $5</p>
+
+<br>
+
+<center><video src="video.mp4" controls></video></center>
+<center><img src="tacos1.jpg" widht="500" height="300"/><img src="tacos2.jpg" widht="500" height="300"/><img src="tacos7.jpg" widht="500" height="300"/></center>
+
+  
+<hr>
+<font size=""><center><p>AQUI TIENE UN MAPA CON ALGUNAS DE LAS REFERENCIAS PARA QUE SE LE FACILITE LLEGAR AL LOCAL</p></center></font>
+<div id="map">     
+<center><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3818.2994372209137!2d-99.87087673320126!3d16.861075716023155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ca5827838f248b%3A0x700053ba5597320d!2sTacos%20El%20Golo!5e0!3m2!1ses!2smx!4v1681921517684!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></center>
+</div>
+
+
+
+
+<div class="comment-box">
+        <textarea placeholder="Escribe tu comentario"></textarea>
+        <button onclick="addComment()">Enviar</button>
+    </div>
+
+    <div id="comments-section">
+        <!-- Aquí se mostrarán los comentarios agregados dinámicamente -->
+    </div>
+
+    <script>
+        function addComment() {
+            var commentBox = document.querySelector('.comment-box textarea');
+            var commentText = commentBox.value.trim();
+
+            if (commentText !== '') {
+                var commentSection = document.getElementById('comments-section');
+
+                var commentDiv = document.createElement('div');
+                commentDiv.className = 'comment';
+
+                var authorSpan = document.createElement('span');
+                authorSpan.className = 'author';
+                authorSpan.textContent = 'Usuario';
+
+                var contentSpan = document.createElement('span');
+                contentSpan.className = 'content';
+                contentSpan.textContent = commentText;
+
+                commentDiv.appendChild(authorSpan);
+                commentDiv.appendChild(document.createElement('br'));
+                commentDiv.appendChild(contentSpan);
+
+                commentSection.appendChild(commentDiv);
+
+                commentBox.value = '';
+            }
+        }
+    </script>
+</body>
+</html>
+
+
+</BODY>
+
+
+</HTML>  
